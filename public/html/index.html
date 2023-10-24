@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- Font Awesome -->
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      />
+      <!-- Google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap"
+         rel="stylesheet"
+      />
+      <!-- CSS LIB -->
+      <link href="../css/output.css" rel="stylesheet" />
+   </head>
+   <body class="text-white font-netflix">
+      <!-- Header Section -->
+      <header>
+         <!-- Header Banner -->
+         <img src="../images/header-bg.jpg" alt="" class="absolute w-full h-180 object-cover" />
+         <!-- Header Container -->
+         <div class="container flex flex-col">
+            <div class="px-8 py-6 flex justify-between space-x-16 z-10">
+               <!-- Logo -->
+               <img class="w-24 md:w-37 h-10 md:h-12" src="../images/logo.png" alt="" />
+               <nav class="flex justify-between items-center space-x-3 md:space-x-6">
+                  <div
+                     class="bg-transparent border border-gray-400 py-1 px-9 rounded text-white font-bold"
+                  >
+                     <a href="#">Türkçe</a>
+                  </div>
+                  <div
+                     class="font-bold text-white tracking-tighter bg-red-600 border border-red-600 px-3.5 py-1 rounded"
+                  >
+                     <a href="#" class="outline-none">Oturum Aç</a>
+                  </div>
+               </nav>
+            </div>
+         </div>
+         <!-- Header Content -->
+         <div
+            class="absolute h-full w-full inset-0 bg-gradient-to-t from-transparent to-black opacity-90 flex justify-center"
+         ></div>
+         <div
+            class="absolute h-180 w-full inset-0 bg-gradient-to-b from-transparent to-black opacity-90 flex justify-center"
+         ></div>
+         <!-- Welcome message -->
+         <div class="flex flex-col justify-center items-center mt-44">
+            <h1 class="text-5xl font-extrabold tracking-tight mb-6 z-10">
+               Sınırsız film, dizi ve çok daha fazlası
+            </h1>
+            <p class="text-xl font-bold z-10 mb-6">
+               İstediğiniz yerde izleyin. İstediğiniz zaman iptal edin.
+            </p>
+            <h3 class="text-lg text-center z-10 mb-6">
+               İzlemeye hazır mısınız? Üye olmak ya da hesabınıza tekrar ulaşmak için tek yapmanız
+               gereken e-posta <br />
+               adresinizi girmek.
+            </h3>
+            <form class="z-10 space-x-4">
+               <input
+                  class="w-100 p-4 bg-black bg-opacity-40 rounded-md h-full border border-gray-400 bg-transparent placeholder:opacity-100"
+                  type="text"
+                  placeholder="E-posta adresi"
+               />
+               <button
+                  class="py-4 px-10 rounded-md text-lg font-bold tracking-wider h-full bg-red-600 border border-red-600"
+               >
+                  Başlayın <i class="fa-solid fa-arrow-right z-10"></i>
+               </button>
+            </form>
+         </div>
+      </header>
+   </body>
+</html>
